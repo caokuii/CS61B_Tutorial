@@ -1,8 +1,8 @@
 
 
 public class NBody {
-    public static int num;//系统中Planet的个数
-    public static double radius;//系统的半径
+    private static int num;//系统中Planet的个数
+    private static double radius;//系统的半径
 
     public static double readRadius(String PlanetsTxtPath){
         In in = new In(PlanetsTxtPath);

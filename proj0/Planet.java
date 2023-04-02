@@ -1,10 +1,10 @@
 public class Planet {
-    double xxPos;//Its current x position
-    double yyPos;//Its current y position
-    double xxVel;// Its current velocity速度 in the x direction
-    double yyVel;// Its current velocity in the y direction
-    double mass;// Its mass质量
-    String imgFileName;// The name of the file that corresponds to the image that depicts the planet (for example, jupiter.gif)
+    public double xxPos;//Its current x position
+    public double yyPos;//Its current y position
+    public double xxVel;// Its current velocity速度 in the x direction
+    public double yyVel;// Its current velocity in the y direction
+    public double mass;// Its mass质量
+    public String imgFileName;// The name of the file that corresponds to the image that depicts the planet (for example, jupiter.gif)
     public static double G = 6.67e-11;
     //constructor
     public Planet(double xP, double yP, double xV, double yV, double m, String img){
